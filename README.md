@@ -12,7 +12,7 @@ python manage.py shell
 
 4. После этого нужно импортировать функции из `scripts.py`:
 ```shell
-from scripts import *
+from scripts import fix_marks, remove_chastisements, create_commendation
 ```
 
 5. Далее для исправления оценок (исправляются 2ки и 3ки на 4ки и 5ки(выбор между 4 и 5 случаен)) нужно вызвать функцию 
